@@ -9,7 +9,7 @@ RUN pip install --upgrade -r requirements.txt
 
 RUN pip uninstall pillow
 
-RUN pip install pillow
+RUN pip install pillow==6.1
 
 COPY app app/
 
